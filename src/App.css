@@ -1,38 +1,83 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background: violet;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dropdown-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 20vh;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  display: block;
+  padding: 10px;
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.dropdown-btn {
+  background-color: rgb(7, 130, 7);
+  padding: 5px 15px;
+  margin: 12px 0 0 0;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.9rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.options h4 {
+  margin: 0;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.options p {
+  border-bottom: 0.1px solid #000;
+  width: 90%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.result {
+  margin: 0;
+  padding: 0px 20px;
+  background-color: #e0dbdf79;
+  border-radius: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.clear {
+  background-color: rgb(203, 39, 39);
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  cursor: pointer;
 }
