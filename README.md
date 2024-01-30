@@ -5,6 +5,8 @@
  🖊️ Just a basic dropdown webapp using ReactJS<br>
 </p>
 
+## Hosted Link : https://react-dropdown1.netlify.app
+
 ## Setup
 
 Clone the repo and install the dependencies.
